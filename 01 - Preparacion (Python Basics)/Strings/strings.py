@@ -16,3 +16,15 @@ print(a[1])
 # Recorrer una cadena
 for x in "banana":
     print(x)
+
+# Longitud de una cadena
+a = "Hello, World!"
+print(len(a))
+
+# Comprobar si una cadena contiene una secuencia de caracteres
+txt = "The best things in life are free!"
+print("free" in txt)
+
+# Comprobar si una cadena no contiene una secuencia de caracteres
+txt = "The best things in life are free!"
+print("expensive" not in txt)
