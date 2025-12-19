@@ -3,6 +3,13 @@ print("It's alright")
 print("He is called 'Johnny'")
 print('He is called "Johnny"')
 
+# Separadores en cadenas
+print("Hello", "Pedro", "Marin", sep = "/")
+
+# Imprimir cadenas en dos lineas
+print("Hello", end = " ")
+print("Pedro")
+
 # Cadenas multilineas
 print("""Lorem ipsum dolor sit amet, 
 consectetur adipiscing elit,

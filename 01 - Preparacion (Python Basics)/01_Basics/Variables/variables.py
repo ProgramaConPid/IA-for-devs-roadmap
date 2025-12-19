@@ -18,3 +18,13 @@ print("La suma de las cartas es:",cards + half_cards)
 camelCase = "Esta es una variable camelCase"
 snake_case = "Esta es una variable snake_case"
 PascalCase = "Esta es una variable PascalCase"
+
+# Constantes (Simuladas)
+PI = 3.14159
+API_URL = "https://api.example.com"
+
+# Tipar variables (Python lo ignora)
+a: int = 1
+b: float = 2.0
+c: str = "Hola"
+d: bool = True
