@@ -1,5 +1,8 @@
 # Condicionales
 
+import os
+os.system("cls")
+
 # Sentencia if simple
 
 edad_usuario = int(input("Ingresa tu edad: "))
@@ -50,3 +53,20 @@ if edad >= 18 and tiene_carnet:
 else:
     print("No puedes conducir")
     
+# or
+if edad >= 18 or tiene_carnet:
+    print("Puedes conducir")
+else:
+    print("No puedes conducir")
+
+# not
+
+es_fin_de_semana = True
+
+if not es_fin_de_semana:
+    print("Puedes ir a la playa")
+else:
+    print("No puedes ir a la playa")
+
+# Operadores ternarios
+ternario = "Verdadero" if 5 > 3 else "Falso"
