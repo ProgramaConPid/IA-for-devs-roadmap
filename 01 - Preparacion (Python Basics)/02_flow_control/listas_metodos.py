@@ -1,6 +1,5 @@
 # Insertar elementos en una lista -> append
-lista1 = [1, 2, 3]
-lista1.append(4) # Inserta el elemento al final de la lista
+lista1 = [1, 2, 3, 4]
 print(lista1)
 
 # Insertar elementos en una lista en una posicion especifica -> insert
