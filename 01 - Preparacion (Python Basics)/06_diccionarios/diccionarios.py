@@ -38,3 +38,23 @@ b = { "name": "Lucia", "es_estudiante": True }
 
 a.update(b)
 print(f"a: {a}")
+
+# Comprobar si existe una propiedad
+print("name" in persona) # False
+print("nombre" in persona) # True
+
+# Obtener todas las claves
+print(persona.keys())
+
+# Obtener todos los valores
+print(persona.values())
+
+# Obtener todas las claves y valores
+print(persona.items())
+
+# Iterar un diccionario por clave y valor
+for key, value in persona.items():
+  print(f"{key}: {value}")
+
+# Obtener el valor de una propiedad
+print(persona.get("nombre"))
